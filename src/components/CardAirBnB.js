@@ -1,8 +1,11 @@
-import {Box, Badge, StarIcon, Image} from "@chakra-ui/react"
-// import Image from "next/image"
+// import {Box, Badge, StarIcon, Image} from "@chakra-ui/react"
+import {Box, Badge, StarIcon} from "@chakra-ui/react"
+import profilePic from "../image/Image1.jpg"
+import Image from "next/image"
 export default function CardAirBnB(){
     const property = {
-        imageUrl: 'https://bit.ly/2Z4KKcF',
+        // imageUrl: 'https://source.unsplash.com/mR1CIDduGLc',
+        imageUrl: '/src/image/Image1.jpg',
         imageAlt: 'Rear view of modern home with pool',
         beds: 3,
         baths: 2,
@@ -12,7 +15,8 @@ export default function CardAirBnB(){
         rating: 4,
       }
   return (  
-      <Image src={property.imageUrl} alt={property.imageAlt} />
+    // <Image src={property.imageUrl} alt={property.imageAlt} />
+    <Image src={profilePic} alt={property.imageAlt} layout="fill"/>
 
   )
 }
