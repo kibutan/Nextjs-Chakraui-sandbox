@@ -29,28 +29,32 @@ export default function InputExample(){
 
             <Stack spacing={4}>
                 <InputGroup>
-                    <InputLeftAddon children='+234' />
+                    <InputLeftAddon>+234</InputLeftAddon>
                     <Input type='tel' placeholder='phone number' />
                 </InputGroup>
 
                 {/* If you add the size prop to `InputGroup`, it'll pass it to all its children. */}
                 <InputGroup size='sm'>
-                    <InputLeftAddon children='https://' />
+                    <InputLeftAddon>https://</InputLeftAddon>
                     <Input placeholder='mysite' />
-                    <InputRightAddon children='.com' />
+                    <InputRightAddon>.com</InputRightAddon>
                 </InputGroup>
             </Stack>
 
             <Stack spacing={4}>
                 <InputGroup>
-                    <InputLeftElement pointerEvents='none' children={<PhoneIcon color='gray.300' />}/>
+                    <InputLeftElement pointerEvents='none'>
+                        <PhoneIcon color='gray.300' />
+                    </InputLeftElement>
                     <Input type='tel' placeholder='Phone number' />
                 </InputGroup>
 
                 <InputGroup>
-                    <InputLeftElement pointerEvents='none' color='gray.300' fontSize='1.2em' children='$' />
+                    <InputLeftElement pointerEvents='none' color='gray.300' fontSize='1.2em'>$</InputLeftElement>
                     <Input placeholder='Enter amount' />
-                    <InputRightElement children={<CheckIcon color='green.500' />} />
+                    <InputRightElement>
+                        <CheckIcon color='green.500' />
+                    </InputRightElement>
                 </InputGroup>
             </Stack>
 

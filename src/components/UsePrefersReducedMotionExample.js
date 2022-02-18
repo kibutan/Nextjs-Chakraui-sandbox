@@ -1,5 +1,5 @@
-import { Image, keyframes, usePrefersReducedMotion,props } from '@chakra-ui/react'
-import logo from '../image/Image1.jpg'
+import { Image, keyframes, usePrefersReducedMotion } from '@chakra-ui/react'
+import logo from '../image/logo.png'
 
 const spin = keyframes`
   from { transform: rotate(0deg); }
@@ -13,5 +13,5 @@ export default function UsePrefersReducedMotionExample() {
     ? undefined
     : `${spin} infinite 20s linear`
 
-  return <Image animation={animation} src={logo} {...props} />
+  return <Image animation={animation} src={logo}  alt="hogehoge"/>
 }

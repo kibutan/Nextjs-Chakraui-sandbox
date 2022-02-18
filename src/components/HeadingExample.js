@@ -3,7 +3,7 @@ import { Heading,Stack,Box,Text,Button} from '@chakra-ui/react'
 export default function HeadingExample(){
     return(
         <>
-            <Heading>I'm a Heading</Heading>
+            <Heading>I&apos;m a Heading</Heading>
             <Stack spacing={6}>
                 <Heading as='h1' size='4xl' isTruncated>
                     (4xl) In love with React & Next
@@ -36,7 +36,7 @@ export default function HeadingExample(){
             </Heading>
 
             <Heading size='lg' fontSize='50px'>
-                I'm overriding this heading
+                I&apos;m overriding this heading
             </Heading>
 
             <Box maxW='32rem'>

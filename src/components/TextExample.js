@@ -22,20 +22,20 @@ export default function TextExample(){
             </Text>
 
             <Text noOfLines={2}>
-                "The quick brown fox jumps over the lazy dog" is an English-language pangram—a
+            &apos;The quick brown fox jumps over the lazy dog&apos; is an English-language pangram—a
                 sentence that contains all of the letters of the English alphabet. Owing to
                 its existence, Chakra was created.
             </Text>
 
 
             <Text noOfLines={[1, 2, 3]}>
-                "The quick brown fox jumps over the lazy dog" is an English-language pangram—a
+            &apos;The quick brown fox jumps over the lazy dog&apos; is an English-language pangram—a
                 sentence that contains all of the letters of the English alphabet. Owing to
                 its existence, Chakra was created.
             </Text>
 
             <Text fontSize='50px' color='tomato'>
-                I'm using a custom font-size value for this text
+                I&apos;m using a custom font-size value for this text
             </Text>
 
             <Text as='i'>Italic</Text>

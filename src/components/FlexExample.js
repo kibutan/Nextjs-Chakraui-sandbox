@@ -38,7 +38,7 @@ export default function flexExample(){
                 <Box w='180px' h='10' bg='blue.500' />
             </Grid>
             <Text>
-                HStack: The children have equal spacing but don't span the whole container
+                HStack: The children have equal spacing but don&apos;t span the whole container
             </Text>
             <HStack spacing='24px'>
                 <Box w='70px' h='10' bg='teal.500' />

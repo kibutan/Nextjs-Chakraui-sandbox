@@ -24,7 +24,7 @@ export default function ImageExample(){
             </Stack>
 
             <Image borderRadius='full' boxSize='150px' src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
-            <Image src='gibbresh.png' fallbackSrc='https://via.placeholder.com/150' />
+            <Image alt="gibbresh" src='gibbresh.png' fallbackSrc='https://via.placeholder.com/150' />
         </>
     )
 }

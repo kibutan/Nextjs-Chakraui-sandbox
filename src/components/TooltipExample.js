@@ -3,14 +3,14 @@ import React from 'react'
 import { PhoneIcon,SearchIcon } from '@chakra-ui/icons'
 
 export default function TooltipExample(){
-    const CustomCard = React.forwardRef(({ children, ...rest }, ref) => (
+    const CustomCard = React.forwardRef(({ children, ...rest }, ref) =>(
         <Box p='1'>
           <Tag ref={ref} {...rest}>
             {children}
           </Tag>
         </Box>
       ))
-      
+      CustomCard.displayName = "CustomCard";
       const CustomToolTip = () => (
         <Tooltip label='Hover me'>
           <CustomCard>Tag Here</CustomCard>

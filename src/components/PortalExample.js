@@ -5,7 +5,7 @@ export default function PortalExample(){
     function Example() {
         return (
           <Box bg='red.400' color='white'>
-            I'm here,
+            I&apos;m here,
             <Portal>This text is portaled at the end of document.body!</Portal>
           </Box>
         )
@@ -15,7 +15,7 @@ export default function PortalExample(){
         const ref = React.useRef()
         return (
           <Box bg='red.400' color='white'>
-            I'm here,
+            I&apos;m here,
             <Portal containerRef={ref}>
               Portal: This text is portaled to the yellow box!
             </Portal>
@@ -33,7 +33,7 @@ export default function PortalExample(){
             <Portal containerRef={ref}>
               <Box bg='teal.500' color='white'>
                 Parent: Hey welcome,
-                <Portal>Child: I'm attached to my parent portal</Portal>
+                <Portal>Child: I&apos;m attached to my parent portal</Portal>
               </Box>
             </Portal>
             <Box bg='red.400' color='white' ref={ref} />
@@ -49,7 +49,7 @@ export default function PortalExample(){
               <Box bg='teal.500' color='white'>
                 Parent: Hey welcome,
                 <Portal appendToParentPortal={false}>
-                  Child: I'm going to document.body
+                  Child: I&apos;m going to document.body
                 </Portal>
               </Box>
             </Portal>

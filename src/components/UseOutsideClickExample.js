@@ -14,7 +14,7 @@ export default function UseOutSideClickExample(){
             <>
                 {isModalOpen ? (
                 <div ref={ref}>
-                    👋 Hey, I'm a modal. Click anywhere outside of me to close.
+                    👋 Hey, I&apos;m a modal. Click anywhere outside of me to close.
                 </div>
                 ) : (
                 <button onClick={() => setIsModalOpen(true)}>Open Modal</button>

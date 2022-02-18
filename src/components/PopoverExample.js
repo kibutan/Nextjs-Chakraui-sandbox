@@ -2,6 +2,7 @@ import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Po
 import { EditIcon } from '@chakra-ui/icons'
 import FocusLock from "react-focus-lock"
 import React from 'react'
+
 export default function PopoverExample(){
     const TextInput = React.forwardRef((props, ref) => {
         return (
@@ -11,6 +12,8 @@ export default function PopoverExample(){
           </FormControl>
         )
       })
+      TextInput.displayName = "TextInput";
+      
       
       // 2. Create the form
       const Form = ({ firstFieldRef, onCancel }) => {
@@ -267,7 +270,7 @@ export default function PopoverExample(){
 
             <Popover>
                 <PopoverTrigger>
-                    <Box tabIndex='0' role='button' aria-label='Some box' p={5} w='120px' bg='gray.300' children='Click' />
+                    <Box tabIndex='0' role='button' aria-label='Some box' p={5} w='120px' bg='gray.300'>Click</Box>
                 </PopoverTrigger>
                 <PopoverContent bg='tomato' color='white'>
                     <PopoverHeader fontWeight='semibold'>Customization</PopoverHeader>

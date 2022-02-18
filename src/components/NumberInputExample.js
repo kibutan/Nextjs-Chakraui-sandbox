@@ -104,8 +104,8 @@ export default function NumberInputExample(){
         <NumberInput size='sm' defaultValue={15} min={10}>
             <NumberInputField focusBorderColor='red.200' />
             <NumberInputStepper>
-                <NumberIncrementStepper bg='green.200' _active={{ bg: 'green.300' }} children='+' />
-                <NumberDecrementStepper bg='pink.200' _active={{ bg: 'pink.300' }} children='-' />
+                <NumberIncrementStepper bg='green.200' _active={{ bg: 'green.300' }} >+</NumberIncrementStepper>
+                <NumberDecrementStepper bg='pink.200' _active={{ bg: 'pink.300' }}>-</NumberDecrementStepper>
             </NumberInputStepper>
         </NumberInput>
 
@@ -122,7 +122,7 @@ export default function NumberInputExample(){
                 <SliderTrack>
                     <SliderFilledTrack />
                 </SliderTrack>
-                <SliderThumb fontSize='sm' boxSize='32px' children={value2} />
+                <SliderThumb fontSize='sm' boxSize='32px'>{value2}</SliderThumb>
             </Slider>
         </Flex>
 

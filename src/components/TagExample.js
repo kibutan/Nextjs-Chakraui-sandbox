@@ -1,5 +1,6 @@
 import {Tag,TagLabel,TagLeftIcon,TagRightIcon,TagCloseButton,HStack, Avatar} from '@chakra-ui/react'
-import { AddIcon,MdSettings } from '@chakra-ui/icons'
+import { AddIcon } from '@chakra-ui/icons'
+import { MdSettings } from 'react-icons/md'
 export default function TagExample(){
     return(
         <>

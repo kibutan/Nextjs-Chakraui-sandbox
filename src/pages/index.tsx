@@ -19,7 +19,7 @@ export default function HomePage() {
   const {colorMode,toggleColorMode } = useColorMode()
   return (
     <>
-      <Box as="button" p={4} color="white" fontWeight="bold" borderRadius="md" bgGradient="linear(to-r,blue.500,yellow.500)" _hover={{bgGradient:"linear(to-r,red.500,green.500)"}} onClick={toggleColorMode}>I'm in {colorMode === "dark"?  "Nightmare": "Heavenly"} Mode</Box>
+      <Box as="button" p={4} color="white" fontWeight="bold" borderRadius="md" bgGradient="linear(to-r,blue.500,yellow.500)" _hover={{bgGradient:"linear(to-r,red.500,green.500)"}} onClick={toggleColorMode}>I am in {colorMode === "dark"?  "Dark": "Light"} Mode</Box>
       <LayoutModules />
       <FormsModules />
       <DataDisplayModules />

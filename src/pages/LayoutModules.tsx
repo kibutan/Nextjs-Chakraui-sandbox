@@ -23,7 +23,7 @@ export default function HomePage() {
     
     {/* <Link href="/post"></Link> */}
     <Box padding={10} backgroundColor="green.500"><chakra.h1 color="tomato">this is a box. padding = 10, bg-col = green.500</chakra.h1></Box>
-    <SpacingBox>Spacint Box is NANI</SpacingBox>
+    <SpacingBox />
     {/* <Box p={10} m={10}>Box that p={10} m={10} and TabLists many variants↓<ManyTabs /></Box> */}
     <GradientBox></GradientBox>
     {/* <CardAirBnB>Card</CardAirBnB> */}

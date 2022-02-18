@@ -6,9 +6,9 @@ export default function CodeExample(){
             <Code>Hello world</Code>
 
             <Stack direction='row'>
-                <Code children='console.log(welcome)' />
-                <Code colorScheme='red' children="var chakra = 'awesome!'" />
-                <Code colorScheme='yellow' children='npm install chakra' />
+                <Code>console.log(welcome)</Code>
+                <Code colorScheme='red'>var chakra = &#39;awesome!&#39;</Code>
+                <Code colorScheme='yellow'>npm install chakra </Code>
             </Stack>
         </>
     )

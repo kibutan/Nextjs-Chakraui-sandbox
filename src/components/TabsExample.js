@@ -55,7 +55,7 @@ export default function TabsExample(){
               <p>Click the tabs or pull the slider around</p>
             </TabPanel>
             <TabPanel>
-              <p>Yeah yeah. What's up?</p>
+              <p>Yeah yeah. What&apos;s up?</p>
             </TabPanel>
             <TabPanel>
               <p>Oh, hello there.</p>
@@ -84,7 +84,7 @@ export default function TabsExample(){
         </Button>
       )
     })
-  
+    CustomTab.displayName = "CustomTab";
     return (
       <Tabs>
         <TabList>
@@ -328,6 +328,7 @@ export default function TabsExample(){
               boxSize='200px'
               fit='cover'
               src='https://resizing.flixster.com/wTgvsiM8vNLhCcCH-6ovV8n5z5U=/300x300/v1.bjsyMDkxMzI5O2o7MTgyMDQ7MTIwMDsxMjAwOzkwMA'
+              alt="hogehoge"
             />
           </TabPanel>
           <TabPanel>
@@ -335,6 +336,7 @@ export default function TabsExample(){
               boxSize='200px'
               fit='cover'
               src='https://vignette.wikia.nocookie.net/naruto/images/2/21/Sasuke_Part_1.png/revision/latest?cb=20170716092103'
+              alt="hugahuga"
             />
           </TabPanel>
         </TabPanels>

@@ -21,7 +21,7 @@ export default function FromControlExample(){
     <>
         <FormControl>
             <FormLabel htmlFor='email'>Email address</FormLabel>
-            <Input id='email' type='email' /><FormHelperText>We'll never share your email.</FormHelperText>
+            <Input id='email' type='email' /><FormHelperText>We&apos;ll never share your email.</FormHelperText>
         </FormControl>
 
         <FormControl as='fieldset'>
@@ -34,14 +34,14 @@ export default function FromControlExample(){
                     <Radio value='Sage of the six Paths'>Sage of the six Paths</Radio>
                 </HStack>
             </RadioGroup>
-            <FormHelperText>Select only if you're a fan.</FormHelperText>
+            <FormHelperText>Select only if you&apos;re a fan.</FormHelperText>
         </FormControl>
 
         <FormControl isInvalid={isError}>
             <FormLabel htmlFor='email'>Email</FormLabel>
             <Input id='email' type='email' value={input} onChange={handleInputChange}/>
             {!isError ? ( 
-            <FormHelperText>Enter the email you'd like to receive the newsletter on.</FormHelperText>
+            <FormHelperText>Enter the email you&apos;d like to receive the newsletter on.</FormHelperText>
             ) : (
             <FormErrorMessage>Email is required.</FormErrorMessage>
             )}

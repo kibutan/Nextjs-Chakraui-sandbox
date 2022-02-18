@@ -36,7 +36,7 @@ export default function ModalExample(){
         return (
           <>
             <Box ref={finalRef} tabIndex={-1} aria-label='Focus moved to this box'>
-              Some other content that'll receive focus on close.
+              Some other content that&apos;ll receive focus on close.
             </Box>
       
             <Button mt={4} onClick={onOpen}>
@@ -103,7 +103,7 @@ export default function ModalExample(){
           <>
             <Button onClick={onOpen}>Open Modal</Button>
             <Button ml={4} ref={finalRef}>
-              I'll receive focus on close
+              I&apos;ll receive focus on close
             </Button>
       
             <Modal

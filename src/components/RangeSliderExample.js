@@ -5,7 +5,7 @@ import { MdGraphicEq } from 'react-icons/md'
 export default function RangeSliderExample(){
     return(
     <>
-        <RangeSlider aria-label={['min', 'max']} defaultValue={[10, 30]}>
+        <RangeSlider aria-label='min-max' defaultValue={[10, 30]}>
             <RangeSliderTrack>
                 <RangeSliderFilledTrack />
             </RangeSliderTrack>
@@ -13,7 +13,7 @@ export default function RangeSliderExample(){
             <RangeSliderThumb index={1} />
         </RangeSlider>
 
-        <RangeSlider aria-label={['min', 'max']} colorScheme='pink' defaultValue={[10, 30]}>
+        <RangeSlider aria-label='min-max' colorScheme='pink' defaultValue={[10, 30]}>
             <RangeSliderTrack>
                 <RangeSliderFilledTrack />
             </RangeSliderTrack>
@@ -21,7 +21,7 @@ export default function RangeSliderExample(){
             <RangeSliderThumb index={1} />
         </RangeSlider>
 
-        <RangeSlider aria-label={['min', 'max']} colorScheme='pink' defaultValue={[10, 30]} orientation='vertical' minH='32' >
+        <RangeSlider aria-label='min-max' colorScheme='pink' defaultValue={[10, 30]} orientation='vertical' minH='32' >
             <RangeSliderTrack>
                 <RangeSliderFilledTrack />
             </RangeSliderTrack>
@@ -29,7 +29,7 @@ export default function RangeSliderExample(){
             <RangeSliderThumb index={1} />
         </RangeSlider>
 
-        <RangeSlider aria-label={['min', 'max']} defaultValue={[30, 80]}>
+        <RangeSlider aria-label='min-max' defaultValue={[30, 80]}>
             <RangeSliderTrack bg='red.100'>
                 <RangeSliderFilledTrack bg='tomato' />
             </RangeSliderTrack>
@@ -49,7 +49,7 @@ export default function RangeSliderExample(){
             <RangeSliderThumb boxSize={6} index={1} />
         </RangeSlider>
  
-        <RangeSlider aria-label={['min', 'max']} onChangeEnd={(val) => console.log(val)} >
+        <RangeSlider aria-label='min-max' onChangeEnd={(val) => console.log(val)} >
             <RangeSliderTrack>
                 <RangeSliderFilledTrack />
             </RangeSliderTrack>

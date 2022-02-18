@@ -18,7 +18,7 @@ export default function SkeltonExample(){
 
             <Skeleton>
                 <div>contents wrapped</div>
-                <div>won't be visible</div>
+                <div>won&apos;t be visible</div>
             </Skeleton>
 
             {/* <Box>
