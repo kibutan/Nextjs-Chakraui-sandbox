@@ -8,7 +8,7 @@ import UseControllableStateExample from "../components/UseControllableStateExamp
 import UseDisclosureExample from "../components/UseDisclosureExample"
 import UseMediaQueryExample from "../components/UseMediaQueryExample"
 import UseMergeRefsExample from "../components/UseMergeRefsExample"
-import UseOutSideClickExample from "../components/UseOutSideClickExample"
+import UseOutsideClickExample from "../components/UseOutsideClickExample"
 import UsePrefersReducedMotionExample from "../components/UsePrefersReducedMotionExample"
 import UseThemeExample from "../components/UseThemeExample"
 import UseTokenExample from "../components/UseTokenExample"
@@ -25,7 +25,7 @@ export default function HooksModules(){
             <UseDisclosureExample />
             <UseMediaQueryExample />
             <UseMergeRefsExample />
-            <UseOutSideClickExample />
+            <UseOutsideClickExample />
             <UsePrefersReducedMotionExample />
             <UseThemeExample />
             <UseTokenExample />
